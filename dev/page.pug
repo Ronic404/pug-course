@@ -1,8 +1,7 @@
-extends layout/main
+extends layout/no-header
 
 block variables
-  - var pageTitle = "Pug course"
-  - var youAreUsingPug = true
+  - var pageTitle = "Page"
 
 block content
   h1.title Pug - node template engine
@@ -14,6 +13,3 @@ block content
         p.
           Pug is a terse and simple templating language with a
           strong focus on performance and powerful features.
-        p Звоните по телефону #[a(href="" class="123") 123-123]
-
-block scripts
